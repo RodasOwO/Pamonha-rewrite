@@ -47,3 +47,9 @@ Após isso escreva node. na sua powershell/cmd e o bot estará ligado
 ![catthumbs](https://media.discordapp.net/attachments/673531793546149899/814141932460572712/catthumbsup.png)
 
 Mas , se fechar o powershell/cmd ele irá se desligar , então recomendo usar uma host , existem várias por ai
+
+Agora o bot está a funcionar , yay
+
+**AVISO!**![avisinho](https://cdn.discordapp.com/emojis/797949740876562452.gif?v=1)
+
+O bot pode ter alguns bugs(vários mesmo) porque como eu já disse antes , é um rewrite que ainda está a ser feito.

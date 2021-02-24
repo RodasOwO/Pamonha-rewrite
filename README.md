@@ -43,13 +43,14 @@ Onde está "prefix": "prefix", coloque o prefixo que quer que o seu bot tenha (e
 
 Onde está "mongoPath": "mongopath" cole o path da sua mongodb no "mongopath" [aqui](https://www.youtube.com/watch?v=4X2qsZudLNY) explica como conseguir o mongopath(video em ingles).
 
-Após isso escreva node. na sua powershell/cmd e o bot estará ligado
+Após isso escreva node . ou node index.js na sua powershell/cmd e o bot estará ligado
 ![catthumbs](https://media.discordapp.net/attachments/673531793546149899/814141932460572712/catthumbsup.png)
 
 Mas , se fechar o powershell/cmd ele irá se desligar , então recomendo usar uma host , existem várias por ai
 
 Agora o bot está a funcionar , yay
 
-**AVISO!**![avisinho](https://cdn.discordapp.com/emojis/797949740876562452.gif?v=1)
+**AVISO!**
+![avisinho](https://cdn.discordapp.com/emojis/797949740876562452.gif?v=1)
 
 O bot pode ter alguns bugs(vários mesmo) porque como eu já disse antes , é um rewrite que ainda está a ser feito.

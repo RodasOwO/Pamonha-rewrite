@@ -1,5 +1,6 @@
 {
   "token": "token",
   "prefix": "Prefix",
-  "mongoPath": "mongopath"
+  "mongoPath": "mongopath",
+  "OwnerId": "SeuId"
 }

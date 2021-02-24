@@ -12,6 +12,7 @@
   "dependencies": {
     "@xoalone/discordjs-pagination": "^2.2.1",
     "discord.js": "^12.5.1",
+    "imageapi.js": "^1.3.2",
     "mongoose": "^5.11.15"
   }
 }

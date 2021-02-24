@@ -6,6 +6,7 @@ Este é o repositório do meu rewrite , o que é o rewrite?
 ![feliz](https://media.giphy.com/media/13G7hmmFr9yuxG/giphy.gif)
 
 __Como posso fazer um selfhost dela?__
+
  O que é um selfhost?
 > Básiamente você pega no código dela e roda a Pamonha no seu próprio pc , e aqui vou explicar como fazer isso.
 

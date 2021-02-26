@@ -1,5 +1,4 @@
-Olá , eu sou a Pamonha-Chan , apenas mais um bot.
-E agora eu vou-te explicar o que está neste repositório 👋
+Olá , eu sou a Pamonha-Chan , apenas mais um bot. E agora eu vou-te explicar o que está neste repositório 👋
 
 Este é o repositório do meu rewrite , o que é o rewrite?
 > O meu código estava muito feio e mal feito  então o meu criador pensou "hmm, vou refaze-la mas melhor"
@@ -7,7 +6,7 @@ Este é o repositório do meu rewrite , o que é o rewrite?
 
 __Como posso fazer um selfhost dela?__
 
- O que é um selfhost?
+O que é um selfhost?
 > Básiamente você pega no código dela e roda a Pamonha no seu próprio pc , e aqui vou explicar como fazer isso.
 
 *Prérequisitos*:
@@ -37,13 +36,17 @@ Copie tudo o que está no config-example.json.
 
 e cole no config.json
 
-onde está "token": "token", cole o token do seu bot no segudndo"token" [aqui](https://gist.github.com/RodasOwO/051db1937d7217c88d3985929289999a) explica como conseguir o token do bot.
+onde está "token": "token", cole o token do seu bot no segudndo"
+token" [aqui](https://gist.github.com/RodasOwO/051db1937d7217c88d3985929289999a) explica como conseguir o token do bot.
 
-Onde está "prefix": "prefix", coloque o prefixo que quer que o seu bot tenha (ele so respondera caso o comando comece com o prefixo), prefixo simples são melhores!!! no segundo "prefix".
+Onde está "prefix": "prefix", coloque o prefixo que quer que o seu bot tenha (ele so respondera caso o comando comece
+com o prefixo), prefixo simples são melhores!!! no segundo "prefix".
 
-Onde está "mongoPath": "mongopath" cole o path da sua mongodb no "mongopath" [aqui](https://www.youtube.com/watch?v=4X2qsZudLNY) explica como conseguir o mongopath(video em ingles).
+Onde está "mongoPath": "mongopath" cole o path da sua mongodb no "
+mongopath" [aqui](https://www.youtube.com/watch?v=4X2qsZudLNY) explica como conseguir o mongopath(video em ingles).
 
-Após isso escreva node . ou node index.js na sua powershell/cmd e o bot estará ligado
+Onde está "OwnerId":"SeuId" substitua o "SeuId" pelo seu id do discord [aqui]() explica como conseguir o seu id Após
+isso escreva node . ou node index.js na sua powershell/cmd e o bot estará ligado
 ![catthumbs](https://media.discordapp.net/attachments/673531793546149899/814141932460572712/catthumbsup.png)
 
 Mas , se fechar o powershell/cmd ele irá se desligar , então recomendo usar uma host , existem várias por ai

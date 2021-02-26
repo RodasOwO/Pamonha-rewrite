@@ -9,12 +9,18 @@ function initialize() {
         if (message.channel.type == "dm") return
         if (!message.content.toLowerCase().startsWith(prefix.toLowerCase())) return
         const args = message.content.trim().slice(prefix.length).split(/ +/g)
-        const command = args.shift().toLowerCase()
+        const cmd = args.shift().toLowerCase()
+
         try {
-            const cmdfile = require(`../commands/${command}`)
-            cmdfile.run(Pamonha, message, args)
+if (cmd) {
+    const cmdfile = require(`../commands/${cmd}`)
+    cmdfile.run(Pamonha, message, args)
+    console.log(`${message.author.id}/${message.author.tag} usou o comando ${cmd}`)
+} else return;
+
         } catch (err) {
-            return
+
+            return;
         }
     })
 

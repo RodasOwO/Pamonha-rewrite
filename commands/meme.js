@@ -10,11 +10,11 @@ exports.run = async (Pamonha, message ,args)
         let subreddit = subreddits[Math.floor(Math.random() * subreddits.length)]
         let img = await api(subreddit)
 
-        const Membed = new discord.MessageEmbed()
+        let Membed = new discord.MessageEmbed()
             .setTitle(`Um meme do r/${subreddit}`)
             .setImage(img)
-            .setFooter(`r/${subreddit}`)
-        message.channel.send(Membed)
+            .setFooter(`r/${subreddit}`);
+        message.channel.send("Este comando está desativado pois nao est")
     } catch(err){
         message.channel.send(`Este comando não pode ser executado devido ao erro ${err}`)
     }

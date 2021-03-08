@@ -9,3 +9,10 @@ exports.run = (Pamonha, message, args) => {
 
 }
 */
+
+//Coisas de db
+/*{
+    upsert: true,
+    new: true,
+  }
+  */

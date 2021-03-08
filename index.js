@@ -1,1 +1,2 @@
-const initialize = require("./configs/Client")()
+let { token } = require("./config.json")
+const initialize = require("./configs/Client")(token)

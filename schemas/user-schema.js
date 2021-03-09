@@ -5,9 +5,6 @@ let reqstring = {
 }
 const UserSchema = new mongoose.Schema({
   _id: reqstring,
-  milho: {
-    type: Number,
-    required: true,
-  },
+  milho: Number,
 })
 module.exports = mongoose.model("users", UserSchema)

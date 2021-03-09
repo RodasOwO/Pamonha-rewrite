@@ -19,7 +19,8 @@ exports.run = async (Pamonha, message, args) => {
         "Agora está :thumbsup:, utilize o comando outra vez para ver as suas moedas"
       )
     } else {
-      message.reply("Você tem " + data.milho + " milhos")
+      let milhoredondo = Math.round(data.milho)
+      message.reply("Você tem " + milhoredondo + " milhos")
     }
   } catch (err) {
     message.channel.send(

@@ -2,7 +2,12 @@ const mongoose = require("mongoose")
 function ConnectToMongo(mongooseString) {
   mongoose.connect(
     mongooseString,
-    { useNewUrlParser: true, useUnifiedTopology: true, keepAlive: true },
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      keepAlive: true,
+      useFindAndModify: false,
+    },
     (err) => {
       if (err) return console.log(`(x) Erro a conectar á db ${err}`)
       console.log("conectada com succeso")

@@ -3,8 +3,8 @@ let reqstring = {
   type: String,
   required: true,
 }
-const UserSchema = mongoose.Schema({
+const GuildSchema = mongoose.Schema({
   _id: reqstring,
-  milho: Number,
+  prefix: String,
 })
-module.exports = mongoose.model("users", UserSchema)
+module.exports = mongoose.model("guilds", GuildSchema)

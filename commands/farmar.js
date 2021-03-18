@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 const UserSchema = require("../schemas/user-schema")
 exports.run = async (Pamonha, message, args) => {
   try {
-    let rand = Math.random()
+    var rand = Math.floor(Math.random() * (5000 - 500 + 1)) + 500
     const data = await UserSchema.findOne({
       _id: message.author.id,
     })
@@ -34,7 +34,7 @@ exports.run = async (Pamonha, message, args) => {
       const data2 = await UserSchema.findOne({
         _id: message.author.id,
       })
-      message.reply("Você tem " + data2.milho + " agora")
+      message.reply("Você tem " + data2.milho + " milhos agora")
     }
   } catch (err) {
     message.channel.send(
